@@ -1,0 +1,108 @@
+/*Stylé général*/
+
+.container-fluid {
+  margin-left: -1.5%;
+  height: 100vh;
+  background-image: url('../img/abstract_bckgr_02.jpg');
+  background-repeat: no-repeat;
+}
+.row {
+  font-size: 30px;
+}
+
+/*Style du menu*/
+
+.hamb {
+  transition: 2s;
+  background-image: url('../img/hamburger-menu.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 51px;
+  transition: 1s;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+.hamb:hover {
+  background-image: url('../img/hamburger-menu2.png');
+}
+.menu {
+  transition: 2s;
+  left: -90%;
+  z-index: 100;
+  position: absolute;
+  width: 90%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.active {
+  transition: 2s;
+  left: 0;
+}
+.cross {
+  z-index: 200;
+  position: absolute;
+  transition: 2s;
+  background-image: url('../img/cross.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 51px;
+  transition: 1s;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+.cross:hover {
+  background-image: url('../img/cross2.png');
+}
+.liste {
+  font-size: 1em;
+  transition: 2s;
+  text-align: center;
+  text-decoration: underline;
+  color: #1AFFBE;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+.liste:hover {
+  color: #CC0130;
+}
+.home{
+  margin-top: 20%;
+}
+/*Style du Home*/
+
+.center {
+  height: 30%;
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+.name {
+  color: #1AFFBE;
+}
+.title {
+  color: white;
+  font-weight: bolder;
+}
+.footer {
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 2s;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+.footer:hover {
+  transition: 1s;
+  color: #CC0130;
+}
+.hiden {
+  visibility: hidden;
+  transition: none;
+}
+
+/*Style du Home*/
