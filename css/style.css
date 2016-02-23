@@ -13,7 +13,7 @@
 /*Style du menu*/
 
 .hamb {
-  transition: 2s;
+  transition: 1s;
   background-image: url('../img/hamburger-menu.png');
   background-position: center;
   background-size: contain;
@@ -28,22 +28,22 @@
   background-image: url('../img/hamburger-menu2.png');
 }
 .menu {
-  transition: 2s;
+  transition: 1s;
   left: -90%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   width: 90%;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.7);
 }
 .active {
-  transition: 2s;
+  transition: 1s;
   left: 0;
 }
 .cross {
   z-index: 200;
   position: absolute;
-  transition: 2s;
+  transition: 1s;
   background-image: url('../img/cross.png');
   background-position: center;
   background-size: contain;
@@ -59,7 +59,7 @@
 }
 .liste {
   font-size: 1em;
-  transition: 2s;
+  transition: 1s;
   text-align: center;
   text-decoration: underline;
   color: #1AFFBE;
@@ -100,10 +100,6 @@
   transition: 1s;
   color: #CC0130;
 }
-.hiden {
-  visibility: hidden;
-  transition: none;
-}
 
 /*Style du work*/
 html {
@@ -122,7 +118,7 @@ html {
   height: 400px;
   background-position: center;
   border: 5px solid #1AFFBE;
-  transition: 2s;
+  transition: 1s;
   box-sizing: border-box;
 }
 .image:hover {
@@ -206,4 +202,52 @@ html {
    margin-left: 0 !important;
    margin-bottom: 0 !important;
    margin-top: 3%;
+ }
+ /*Style de la page about*/
+.me {
+  background-image: url('../img/moi.jpg');
+  background-size: cover;
+  height: 455px;
+  background-position: center;
+  padding : 5%;
+  display: inline-block;
+  margin: auto;
+}
+.me:hover {
+  background-image: url('../img/moi2.jpg');
+}
+.je {
+  margin-top: 2%;
+  color : white;
+  text-align: justify;
+  padding : 5%;
+  padding-bottom: none;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.text-about {
+padding-left: 10%;
+}
+.aboutMe {
+  height: 100vh;
+}
+/*style de la page de contact*/
+.contact {
+  text-align: center;
+  margin: 5%;
+  margin-top: 10%;
+}
+.message {
+  margin-top: 2%;
+  height: 300px;
+}
+input {
+  text-align: center;
+}
+.submit {
+  margin-top: 2%;
+}
+ .hiden {
+   visibility: hidden;
+   transition: none;
  }
