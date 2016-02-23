@@ -3,8 +3,7 @@
 .container-fluid {
   margin-left: -1.5%;
   height: 100vh;
-  background-image: url('../img/abstract_bckgr_02.jpg');
-  background-repeat: no-repeat;
+  background-image: url('../img/moulin.png');
 }
 .row {
   font-size: 30px;
@@ -62,7 +61,7 @@
   transition: 1s;
   text-align: center;
   text-decoration: underline;
-  color: #1AFFBE;
+  color: #3EB29D;
   font-weight: bolder;
   margin-top: 5%;
 }
@@ -81,7 +80,7 @@
   font-family: 'Pacifico', cursive;
 }
 .name {
-  color: #1AFFBE;
+  color: #3EB29D;
 }
 .title {
   color: white;
@@ -103,11 +102,11 @@
 
 /*Style du work*/
 html {
-  background-image: url('../img/abstract_bckgr_02.jpg');
+  background-image: url('../img/moulin.png');
 }
 .integration, .cms, .js {
   text-align: center;
-  color:#1AFFBE;
+  color:#3EB29D;
 }
 .integration {
   margin-top: 3%;
@@ -117,7 +116,7 @@ html {
   background-size: cover;
   height: 400px;
   background-position: center;
-  border: 5px solid #1AFFBE;
+  border: 5px solid #3EB29D;
   transition: 1s;
   box-sizing: border-box;
 }
@@ -232,20 +231,28 @@ padding-left: 10%;
   height: 100vh;
 }
 /*style de la page de contact*/
-.contact {
+.contact, .rs {
+  padding: 5%;
   text-align: center;
-  margin: 5%;
-  margin-top: 10%;
+  color:#3EB29D;
 }
 .message {
   margin-top: 2%;
-  height: 300px;
+  height: 200px;
 }
 input {
   text-align: center;
 }
 .submit {
   margin-top: 2%;
+}
+form {
+  margin-top: 3%;
+}
+.linkedin, .twitter, .github, .viadeo {
+height:100px;
+width:100px;
+display: inline-block;
 }
  .hiden {
    visibility: hidden;
